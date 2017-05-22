@@ -1,0 +1,31 @@
+*,::before,::after{
+    box-sizing: border-box;margin:0px;padding:0px;
+}
+
+body{
+	background-color:#f5f5f5;
+	font-family: "Microsoft YaHei" , "sans-serif";
+}
+*:focus{
+    outline: none;
+}
+a{
+	text-decoration: none;
+	color:#000;
+}
+ul{
+	list-style: none;
+}
+[class^="icon_"] {
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;/* 缩放 */
+}
+
+.clearfix::before,.clearfix::after{
+display: block;
+content:" ";
+height:0px;
+line-height: 0px;
+visibility: hidden;
+clear:both;
+}

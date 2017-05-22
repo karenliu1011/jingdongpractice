@@ -1,0 +1,293 @@
+.jd_layout {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.jd_header {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+.jd_header_box {
+    min-width: 300px;
+    max-width: 640px;
+    margin: 0 auto;
+    height: 40px;
+    position: relative;
+   background:rgba(201,21,35,0);
+    z-index: 999;
+}
+
+.jd_layout .icon_logo {
+    background-position: 0 -103px;
+    width: 60px;
+    height: 36px;
+    display: inline-block;
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}
+
+.jd_header form {
+    width: 100%;
+    padding-left: 75px;
+    padding-right: 45px;
+    margin-top: 5px;
+    height: 30px;
+}
+
+.jd_header form .icon_search {
+    background-position: -60px -109px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 81px;
+}
+
+.jd_header input {
+    border: none;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 5px;
+    padding-left: 27px;
+    outline: none;
+}
+/* .jd_header input:focus{
+	border:none;
+} */
+.jd_header .login {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    line-height: 35px;
+    color: #fff;
+}
+
+.jd_banner {
+    overflow: hidden;
+}
+
+.jd_banner ul {
+    width: 800%;
+}
+
+.jd_banner li {
+    width: 12.5%;
+    float: left;
+}
+
+.jd_banner li img {
+    width: 100%;
+}
+
+.jd_nav {
+    width: 100%;
+    padding: 0 3.5%;
+    padding-top: 10px;
+    background-color: #fff;
+}
+
+.jd_nav li {
+    width: 25%;
+    float: left;
+    height: 69px;
+}
+
+.jd_nav a {
+    display: block;
+    margin: 0 auto;
+}
+
+.jd_nav li img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    display: block;
+}
+
+.jd_nav p {
+    font-size: 13px;
+    text-align: center;
+    line-height: 29px;
+}
+
+.jd_product {
+    margin: 0 5px;
+}
+
+.jd_product_box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.jd_purchase .clock_icon {
+    background: url("../images/seckill-icon.png") no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    background-size: 16px 20px;
+    margin-top: 6px;
+    float: left;
+    margin-left: 5px;
+}
+
+.jd_purchase .product_top {
+    height: 32px;
+    line-height: 32px;
+}
+
+.jd_purchase .product_top_left {
+    float: left;
+}
+
+.jd_purchase .product_top_right {
+    float: right;
+}
+
+.jd_purchase h4 {
+    display: inline-block;
+    color: #d8505c;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 5px;
+    float: left;
+}
+
+.jd_purchase .clock_time {
+    display: inline-block;
+    float: left;
+}
+
+.jd_purchase .more {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.jd_purchase .num {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.jd_product .product_bot li {
+    width: 33.33%;
+    float: left;
+    margin-top: 10px;
+}
+
+.jd_purchase .product_bot .imgbox {
+    width: 100%;
+    border-right: 1px solid #dcdcdc;
+}
+
+.jd_purchase .product_bot img {
+    width: 64%;
+    margin: 0 auto;
+    display: block;
+}
+
+.jd_purchase .product_bot li:last-child .imgbox {
+    border: none;
+}
+
+.jd_purchase .product_bot li p {
+    text-align: center;
+}
+
+.jd_purchase .product_bot li .now_price {
+    color: #e00;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.jd_purchase .product_bot li .old_price {
+    font-size: 12px;
+    text-decoration: line-through;
+}
+
+.jd_crazyshop .jd_crazy_top h4,
+.jd_cheapshop .jd_cheapshop_top h4 ,
+.jd_hotshop .jd_hotshop_top h4{
+    height: 32px;
+    line-height: 32px;
+    font-weight: normal;
+    padding-left: 20px;
+    position: relative;
+}
+
+.jd_crazyshop .jd_crazy_top h4::before,
+.jd_cheapshop .jd_cheapshop_top h4::before,
+.jd_hotshop .jd_hotshop_top h4::before {
+    height: 12px;
+    width: 3px;
+    background-color: #d8505c;
+    display: block;
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 7px;
+}
+
+.jd_crazyshop .jd_crazy_bot,.jd_cheapshop .jd_cheapshop_bot {
+    border-top: 1px solid #ebebeb;
+    padding: 5px;
+}
+.jd_crazyshop .jd_crazy_bot img{
+	width:100%;
+	height: 100%;
+}
+.jd_cheapshop .cheapshop_left {
+    float: left;
+    width: 50%;
+    border-right: 1px solid #ebebeb;
+}
+
+.jd_cheapshop .cheapshop_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.jd_cheapshop .cheapshop_right {
+    float: right;
+    width: 50%;
+}
+
+.jd_cheapshop .cheapshop_right img {
+    width: 100%;
+    height: 50%;
+}
+
+.jd_cheapshop .cheapshop_r_top{
+	border-bottom: 1px solid #ebebeb;
+}
+
+.jd_hotshop .hotshop_left{
+	float:left;
+	width: 50%;
+	height: 100%;
+}
+.jd_hotshop .hotshop_left img{
+	width:100%;
+	height: 50%;
+}
+.jd_hotshop .hotshop_right{
+	width: 50%;
+	float: right;
+	height: 100%;
+}
+.jd_hotshop .hotshop_right img{
+	width:100%;
+	height: 100%;}
